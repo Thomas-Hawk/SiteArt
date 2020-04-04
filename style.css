@@ -1,0 +1,85 @@
+/*Reset CSS*/
+
+
+.entete {
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    height: 250px;
+}
+
+a.titre  {
+    margin: 30px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    
+}
+
+.titre > h1  {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif  ; 
+    font-size: 80px;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    /* font-family: Avenir, sans-serif; */
+
+
+}
+
+
+.navbar {
+    margin-bottom: 30px;
+    border-radius: 3px;
+}
+
+
+.contact {
+    margin-bottom: 100px;
+    padding: 10px;
+    width: 50em;
+    margin: auto;
+}
+
+
+body{
+    background-color: #5d8a49fa;
+}
+.insta{
+    width: 30px;
+}
+
+.login{
+    margin-top: 20px;
+}
+
+
+
+/**************************************************************************************************************** */
+/****************************************************drag and drop ************************************************* */
+/************************************************************************************************************** */
+[draggable] {
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    /* Required to make elements draggable in old WebKit */
+    -khtml-user-drag: element;
+    -webkit-user-drag: element;
+  }
+  
+ 
+
+  
+  .column.dragElem {
+    opacity: 0.4;
+  }
+  .column.over {
+    //border: 2px dashed #000;
+    border-top: 2px solid blue;
+  }
+  
